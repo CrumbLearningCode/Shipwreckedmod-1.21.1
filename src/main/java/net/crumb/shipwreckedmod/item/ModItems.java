@@ -1,6 +1,7 @@
 package net.crumb.shipwreckedmod.item;
 
 import net.crumb.shipwreckedmod.ShipwreckedMod;
+import net.crumb.shipwreckedmod.item.custom.ModFoodProperties;
 import net.crumb.shipwreckedmod.item.custom.MusselItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
@@ -14,7 +15,10 @@ public class ModItems {
             () -> new MusselItem(new Item.Properties()));
 
     public static final DeferredItem<Item> RAW_MUSSEL = ITEMS.register("raw_mussel",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoodProperties.RAW_MUSSEL)));
+
+    public static final DeferredItem<Item> COOKED_MUSSEL = ITEMS.register("cooked_mussel",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_MUSSEL)));
 
 
     public static void register(IEventBus eventBus) {

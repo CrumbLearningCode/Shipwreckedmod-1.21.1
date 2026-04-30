@@ -3,6 +3,7 @@
   "block.examplemod.example_block": "Example Block",
   "item.shipwreckedmod.mussel": "Mussel",
   "item.shipwreckedmod.raw_mussel": "Raw Mussel",
+  "item.shipwreckedmod.cooked_mussel": "Cooked Mussel",
   "block.shipwreckedmod.limestone_block": "Limestone Block",
   "creativetab.shipwreckedmod.mussel.items": "Shipwrecked",
 

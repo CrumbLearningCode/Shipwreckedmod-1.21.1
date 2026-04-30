@@ -1,7 +1,8 @@
-package net.crumb.shipwreckedmod.item;
+package net.crumb.shipwreckedmod.item.custom;
 
 import net.crumb.shipwreckedmod.ShipwreckedMod;
 import net.crumb.shipwreckedmod.block.ModBlocks;
+import net.crumb.shipwreckedmod.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,7 @@ public class ModCreativeModeTabs {
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.MUSSEL);
                         output.accept(ModItems.RAW_MUSSEL);
+                        output.accept(ModItems.COOKED_MUSSEL);
                         output.accept(ModBlocks.LIMESTONE_BLOCK);
                     }).build());
 

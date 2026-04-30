@@ -1,9 +1,8 @@
 package net.crumb.shipwreckedmod;
 
 import net.crumb.shipwreckedmod.block.ModBlocks;
-import net.crumb.shipwreckedmod.item.ModCreativeModeTabs;
+import net.crumb.shipwreckedmod.item.custom.ModCreativeModeTabs;
 import net.crumb.shipwreckedmod.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -59,14 +58,7 @@ public class ShipwreckedMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.MUSSEL);
-            event.accept(ModItems.RAW_MUSSEL);
-        }
 
-        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-            event.accept(ModBlocks.LIMESTONE_BLOCK);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
