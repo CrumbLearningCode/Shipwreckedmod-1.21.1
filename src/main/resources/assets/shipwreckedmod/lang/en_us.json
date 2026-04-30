@@ -1,7 +1,10 @@
 {
-  "itemGroup.examplemod": "Example Mod Tab",
+  "itemGroup.examplemod": "Shipwrecked",
   "block.examplemod.example_block": "Example Block",
-  "item.examplemod.example_item": "Example Item",
+  "item.shipwreckedmod.mussel": "Mussel",
+  "item.shipwreckedmod.raw_mussel": "Raw Mussel",
+  "block.shipwreckedmod.limestone_block": "Limestone Block",
+  "creativetab.shipwreckedmod.mussel.items": "Shipwrecked",
 
   "examplemod.configuration.title": "Example Mod Configs",
   "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",
@@ -11,3 +14,4 @@
   "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
   "examplemod.configuration.magicNumber": "Magic Number"
 }
+
